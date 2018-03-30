@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-starter-photon",
+  "description": "Gatsby Starter - Photon",
+  "version": "1.0.0",
+  "author": "Hunter Chang",
+  "dependencies": {
+    "gatsby": "^1.9.243",
+    "gatsby-link": "^1.6.40",
+    "gatsby-image": "^1.0.42",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.25",
+    "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-remark-copy-linked-files": "^1.5.30",
+    "gatsby-remark-images": "^1.5.60",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.39",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "lodash": "^4.17.5"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  }
+}
