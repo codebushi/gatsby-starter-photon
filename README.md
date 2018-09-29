@@ -1,5 +1,5 @@
-# gatsby-starter-photon
-Gatsby starter based on the Photon site template, designed by [HTML5 UP](https://html5up.net/photon). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# gatsby-starter-photon-v2
+Gatsby.js V2 starter based on the Photon site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
 ## Preview
 
@@ -8,7 +8,7 @@ http://gatsby-photon.surge.sh/
 ## Installation
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-photon https://github.com/codebushi/gatsby-starter-photon`
+`gatsby new gatsby-starter-photon-v2 https://github.com/codebushi/gatsby-starter-photon-v2`
 
 Run `gatsby develop` in the terminal to start.
 
