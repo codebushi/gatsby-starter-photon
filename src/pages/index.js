@@ -1,6 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
+
+import Layout from '../components/layout';
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -9,10 +10,10 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title;
+        const siteTitle = "Gatsby Starter - Photon";
 
         return (
-            <div>
+            <Layout>
                 <Helmet title={siteTitle} />
 
                 <section id="one" className="main style1">
@@ -103,23 +104,9 @@ class Homepage extends React.Component {
                         </ul>
                     </div>
                 </section>
-            </div>
+            </Layout>
         );
     }
 }
 
-Homepage.propTypes = {
-    route: React.PropTypes.object
-};
-
 export default Homepage;
-
-export const pageQuery = graphql`
-    query IndexQuery {
-        site {
-            siteMetadata {
-                title
-            }
-        }
-    }
-`;

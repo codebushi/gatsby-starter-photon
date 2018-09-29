@@ -1,9 +1,8 @@
 import React from "react";
-import Link from "gatsby-link";
 import "../assets/scss/main.scss";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 class Template extends React.Component {
     constructor(props) {
@@ -31,15 +30,11 @@ class Template extends React.Component {
         return (
             <div className={`body ${this.state.loading}`}>
                 <Header />
-                {children()}
+                {children}
                 <Footer />
             </div>
         );
     }
 }
-
-Template.propTypes = {
-    children: React.PropTypes.func
-};
 
 export default Template;
