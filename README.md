@@ -3,7 +3,7 @@ Gatsby.js V2 starter based on the Photon site template, designed by HTML5 UP. Ch
 
 ## Preview
 
-http://gatsby-photon.surge.sh/
+https://gatsby-photon.surge.sh
 
 ## Installation
 
