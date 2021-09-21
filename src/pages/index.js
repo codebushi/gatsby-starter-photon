@@ -10,7 +10,7 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Gatsby Starter - Photon";
+        const siteTitle = "Edukatek - IT training platform";
 
         return (
             <Layout>
