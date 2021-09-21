@@ -1,4 +1,6 @@
-# gatsby-starter-photon
+# Edukatek-gatsby-website
+
+This is the Edukatek website based on the gatsby-photo-starter.
 
 Gatsby.js V2 starter based on the Photon site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
 
